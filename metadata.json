@@ -1,0 +1,21 @@
+{
+  "name": "reederz-nodered",
+  "version": "0.1.0",
+  "author": "reederz",
+  "summary": "Puppet module for Node-RED",
+  "license": "Apache 2.0",
+  "source": "https://github.com/reederz/puppet-nodered",
+  "project_page": "https://github.com/reederz/puppet-nodered",
+  "issues_url": "https://github.com/reederz/puppet-nodered/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs-nodejs",
+      "version_range": ">= 0.7.1"
+    }
+  ]
+}
+
