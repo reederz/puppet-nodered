@@ -3,7 +3,7 @@
     "version": "0.1.1",
     "author": "reederz",
     "summary": "Puppet module for Node-RED",
-    "license": "Apache 2.0",
+    "license": "MIT",
     "source": "https://github.com/reederz/puppet-nodered",
     "project_page": "https://github.com/reederz/puppet-nodered",
     "issues_url": "https://github.com/reederz/puppet-nodered/issues",

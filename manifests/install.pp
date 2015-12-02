@@ -21,7 +21,7 @@ class nodered::install {
     package { 'grunt-cli':
       ensure   =>  present,
       provider =>  'npm',
-      require => Class['nodejs'],
+      require  => Class['nodejs'],
     }
   }
 
@@ -29,13 +29,13 @@ class nodered::install {
     package { 'forever':
       ensure   =>  present,
       provider =>  'npm',
-      require => Class['nodejs'],
+      require  => Class['nodejs'],
     }
   }
 
-  package { 'node-red': 
+  package { 'node-red':
       ensure   =>  present,
       provider =>  'npm',
-      require => Class['nodejs'],
+      require  => Class['nodejs'],
   }
 }
