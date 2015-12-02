@@ -9,12 +9,12 @@
     "issues_url": "https://github.com/reederz/puppet-nodered/issues",
     "dependencies": [
         {
-            "name": "puppetlabs-stdlib",
-            "version_range": ">= 1.0.0"
+            "name": "puppetlabs-nodejs",
+            "version_range": ">= 1.2.0"
         },
         {
-            "name": "puppetlabs-nodejs",
-            "version_range": ">= 0.7.1"
+            "name": "puppetlabs-apt",
+            "version_range": ">= 2.2.0"
         }
     ],
     "operatingsystem_support": [
