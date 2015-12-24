@@ -10,7 +10,7 @@
     "dependencies": [
         {
             "name": "puppetlabs-nodejs",
-            "version_range": ">= 1.2.0"
+            "version_range": ">= 0.8.0"
         },
         {
             "name": "puppetlabs-apt",
